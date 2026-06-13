@@ -1,0 +1,21 @@
+# Data directories
+data/
+logs/
+
+# Caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.env.local
+
+# Virtual environments
+venvv/
+env/
+.venv/
+
+# Archives
+*.tar.gz
+*.zip
