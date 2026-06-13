@@ -1,4 +1,4 @@
-# AngelOne Tick Collector
+# AngelOne 
 
 This repository contains a robust, crash-resilient tick data collector and historical backfill script for the AngelOne SmartAPI.
 
