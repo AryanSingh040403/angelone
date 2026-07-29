@@ -7,8 +7,7 @@ from datetime import datetime, time, timezone, timedelta
 from logging.handlers import RotatingFileHandler
 
 # Path setup
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-LOG_DIR = os.path.join(SCRIPT_DIR, "logs")
+
 
 os.makedirs(LOG_DIR, exist_ok=True)
 
