@@ -6,7 +6,7 @@ from SmartApi import SmartConnect
 def get_auth_session():
     """
     Loads credentials from the environment (loaded from .env), generates a TOTP, 
-    logs into AngelOne SmartAPI.
+    logs into AngelOne SmartAPI, and returns the authentication tokens.
     
     Returns:
         tuple: (smart_connect, auth_token, feed_token)
